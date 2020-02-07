@@ -1630,7 +1630,7 @@ a:hover {
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 60px 0 10px;
 }
 
 .social-icon ul {
@@ -1694,7 +1694,7 @@ a:hover {
 }
 
 .copyright {
-  padding: 20px 0;
+  padding: 0px 0;
   color: #fff;
 }
 
