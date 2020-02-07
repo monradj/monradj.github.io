@@ -653,11 +653,7 @@ a:hover {
 }
 
 .hero-area {
-  background: url("../images/banner/monra.jpeg") no-repeat center center fixed;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/banner/monra.jpeg") no-repeat center;
   background-size: cover;
   height: 100vh;
   position: relative;
