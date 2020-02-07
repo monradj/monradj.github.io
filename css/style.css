@@ -111,7 +111,7 @@ a:hover {
 }
 
 .btn-transparent:hover, .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #acacac;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -148,6 +148,26 @@ a:hover {
   color: #ddd;
 }
 
+.border-black {
+  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  height: 1px;
+  margin: 15px auto 0;
+  position: relative;
+  width: 30%;
+}
+
+.border-black:before {
+  background-color: #000000;
+  content: '';
+  height: 6px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  top: -4px;
+  width: 50px;
+  background-color: #000000;
+}
+
 .border {
   border-top: 2px solid rgba(236, 239, 241, 0.07);
   height: 1px;
@@ -165,11 +185,15 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #ffffff;
 }
 
 .color {
   color: #6CB670;
+}
+
+.color-p {
+  color: #000;
 }
 
 .sub-title {
@@ -241,7 +265,7 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #57cbcc;
+  color: #000000;
 }
 
 .btn-main {
@@ -419,7 +443,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #000000;
 }
 
 .title p {
@@ -515,7 +539,7 @@ a:hover {
 }
 
 .pagination li a:hover, .pagination li a.active {
-  background: #57cbcc;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -578,7 +602,7 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #57cbcc;
+  color: #ffffff;
 }
 
 .navigation .navigation-menu li a {
@@ -588,7 +612,7 @@ a:hover {
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #57cbcc;
+  color: #ffffff;
 }
 
 .navbar-toggle {
@@ -637,7 +661,7 @@ a:hover {
   line-height: 60px;
   font-size: 20px;
   margin-left: 3px;
-  color: #57cbcc;
+  color: #000000;
 }
 
 .hero-area .block h1 {
@@ -716,7 +740,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #ffffff;
 }
 
 .about .block:hover .icon-box {
@@ -860,7 +884,7 @@ a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #ffffff;
 }
 
 #contact-submit {
@@ -1012,8 +1036,8 @@ a:hover {
 }
 
 .portfolio-filter button.active {
-  border: 1px solid #57cbcc;
-  color: #57cbcc;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 .portfolio-items-wrapper .mix {
@@ -1218,7 +1242,7 @@ a:hover {
 }
 
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   text-align: center;
   height: 100%;
@@ -1239,8 +1263,8 @@ a:hover {
 }
 
 .member-photo .mask ul li a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #000000;
+  color: #000000;
   display: block;
   font-size: 20px;
   height: 35px;
@@ -1250,8 +1274,8 @@ a:hover {
 }
 
 .member-photo .mask ul li a:hover {
-  background-color: #fff;
-  color: #57cbcc;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
   border: 1px solid transparent;
 }
 
@@ -1606,7 +1630,7 @@ a:hover {
 }
 
 .social-icon ul li:hover a {
-  background-color: #57cbcc;
+  background-color: #acacac;
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
